@@ -1,0 +1,9 @@
+- @ResponseBody -> Whatever we are returning is returned to the browser as is.
+- JSP is one of the most popular `view` technologies.
+- Spring Boot looks for jsp files in the particular folder only.
+- Model - Whenever we want to pass anything from your controller to Jsp, we out that into `model`. Data to generate the view.
+- View - Show information to user.
+- Controller - Controls the flow.
+- Log Level -> Debug -> Info -> Warn
+- Whenever we put something in model, by deault it is only available for the scope of that request. If we want it to live longer, we want to put it into session.
+- To do enhanced things in html, we need to use jstl library.
